@@ -27,3 +27,8 @@ body {
     text-align: center;
     padding-bottom: 40px;
 }
+#reset {
+    height: 40px;
+    width: 140px;
+    margin-top: 40px;;
+}
