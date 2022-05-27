@@ -40,37 +40,37 @@ cleargame.addEventListener('click', function() {
 // function that checks for winner
 let winnerwinner = function () {
     if (one.innerHTML == "X" && two.innerHTML == "X" && three.innerHTML =="X") {
-        gameboard.innerHTML = " X wins";
+        gameboard.innerHTML = " Player 1 WINS";
     } else if (four.innerHTML == "X" && five.innerHTML == "X" && six.innerHTML =="X") {
-        gameboard.innerHTML = " X wins";
+        gameboard.innerHTML = " Player 1 WINS";
     } else if (seven.innerHTML == "X" && eight.innerHTML == "X" && nine.innerHTML =="X") {
-        gameboard.innerHTML = " X wins";
+        gameboard.innerHTML = " Player 1 WINS";
     } else if (one.innerHTML == "X" && five.innerHTML == "X" && nine.innerHTML =="X") {
-        gameboard.innerHTML = " X wins";
+        gameboard.innerHTML = " Player 1 WINS";
     } else if (seven.innerHTML == "X" && five.innerHTML == "X" && three.innerHTML =="X") {
-        gameboard.innerHTML = " X wins";
+        gameboard.innerHTML = " Player 1 WINS";
     } else if (one.innerHTML == "X" && four.innerHTML == "X" && seven.innerHTML =="X") {
-        gameboard.innerHTML = " X wins";
+        gameboard.innerHTML = " Player 1 WINS";
     } else if (two.innerHTML == "X" && five.innerHTML == "X" && eight.innerHTML =="X") {
-        gameboard.innerHTML = " X wins";
+        gameboard.innerHTML = " Player 1 WINS";
     } else if (three.innerHTML == "X" && six.innerHTML == "X" && nine.innerHTML =="X") {
-        gameboard.innerHTML = " X wins";
+        gameboard.innerHTML = " Player 1 WINS";
     } else if (one.innerHTML == "O" && two.innerHTML == "O" && three.innerHTML =="O") {
-        gameboard.innerHTML = " O wins";
+        gameboard.innerHTML = " Player 2 WINS";
     } else if (four.innerHTML == "O" && five.innerHTML == "O" && six.innerHTML =="O") {
-        gameboard.innerHTML = " O wins";
+        gameboard.innerHTML = " Player 2 WINS";
     } else if (seven.innerHTML == "O" && eight.innerHTML == "O" && nine.innerHTML =="O") {
-        gameboard.innerHTML = " O wins";
+        gameboard.innerHTML = " Player 2 WINS";
     } else if (one.innerHTML == "O" && five.innerHTML == "O" && nine.innerHTML =="O") {
-        gameboard.innerHTML = " O wins";
+        gameboard.innerHTML = " Player 2 WINS";
     } else if (seven.innerHTML == "O" && five.innerHTML == "O" && three.innerHTML =="O") {
-        gameboard.innerHTML = " O wins";
+        gameboard.innerHTML = " Player 2 WINS";
     } else if (one.innerHTML == "O" && four.innerHTML == "O" && seven.innerHTML =="O") {
-        gameboard.innerHTML = " O wins";
+        gameboard.innerHTML = " Player 2 WINS";
     } else if (two.innerHTML == "O" && five.innerHTML == "O" && eight.innerHTML =="O") {
-        gameboard.innerHTML = " O wins";
+        gameboard.innerHTML = " Player 2 WINS";
     } else if (three.innerHTML == "O" && six.innerHTML == "O" && nine.innerHTML =="O") {
-        gameboard.innerHTML = " O wins";
+       gameboard.innerHTML = " Player 2 WINS";
     } else if (counter == 9) {
         gameboard.innerHTML = " Tie ";
     }
